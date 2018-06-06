@@ -1,0 +1,2 @@
+# nmap banner
+  nmap -sV --script=banner
