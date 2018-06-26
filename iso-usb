@@ -1,0 +1,6 @@
+# cat debian.iso > /dev/sdX
+# sync
+
+
+ dd if=salut.iso of=/dev/sdb bs=1MB
+

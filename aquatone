@@ -1,0 +1,12 @@
+#!/bin/bash
+aquatone-discover -d $1 --threads 10
+aquatone-scan -d $1 --ports huge --threads 10
+DEBUG=nightmare xvfb-run -a aquatone-gather -d $1 --threads 10
+aquatone-takeover -d $1 --threads 10
+
+
+
+
+
+###############
+xvfb-run -a aquatone-gather
