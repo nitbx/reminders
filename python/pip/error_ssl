@@ -1,0 +1,2 @@
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
+https://stackoverflow.com/questions/25981703/pip-install-fails-with-connection-error-ssl-certificate-verify-failed-certi
