@@ -1,0 +1,5 @@
+elasticsearch.exceptions.TransportError: <exception str() failed>
+
+https://github.com/ascribe/image-match/issues/88
+pip install 'elasticsearch>=6.0.0,<7.0.0'
+
