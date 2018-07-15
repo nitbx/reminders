@@ -1,2 +1,4 @@
 curl -XDELETE localhost:9200/.salut*
+curl -X DELETE 'http://localhost:9200/_all'
+
 
