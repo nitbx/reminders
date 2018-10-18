@@ -1,0 +1,7 @@
+chsh -s /usr/bin/zsh
+chsh -s /usr/bin/fish
+chsh -s /usr/bin/XXXXXXYY
+
+
+
+
