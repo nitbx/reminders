@@ -1,1 +1,1 @@
-ssh rXXt@X.X.X.X -i .ssh/id_XXXX -D 8888 
+ssh rXXt@X.X.X.X  -D 8888
