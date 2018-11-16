@@ -1,0 +1,40 @@
+# Install Chrome or Chromium
+git clone https://github.com/scheib/chromium-latest-linux
+cd chromium-latest-linux
+./update.sh
+
+cd ..
+git clone https://github.com/michenriksen/aquatone
+go get github.com/michenriksen/aquatone/agents
+go get github.com/michenriksen/aquatone/core
+go get github.com/michenriksen/aquatone/parsers
+go build -o aquatone main.go
+./aquatone -chrome-path ../chromium-latest-linux/latest/chrome -h
+Usage of ./aquatone:
+  -chrome-path string
+               Full path to the Chrome/Chromium executable to use. By default, aquatone will search for Chrome or Chromium
+  -debug
+               Print debugging information
+  -http-timeout int
+               Timeout in miliseconds for HTTP requests (default 3000)
+  -nmap
+               Parse input as Nmap/Masscan XML
+  -out string
+               Directory to write files to (default ".")
+  -ports string
+               Ports to scan on hosts. Supported list aliases: small, medium, large, xlarge (default "80,443,8000,8080,8443")
+  -proxy string
+               Proxy to use for HTTP requests
+  -resolution string
+               screenshot resolution (default "1440,900")
+  -save-body
+               Save response bodies to files (default true)
+  -scan-timeout int
+               Timeout in miliseconds for port scans (default 100)
+  -screenshot-timeout int
+               Timeout in miliseconds for screenshots (default 30000)
+  -silent
+               Suppress all output except for errors
+  -threads int
+               Number of concurrent threads (default number of logical CPUs)
+
