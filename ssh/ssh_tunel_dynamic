@@ -1,0 +1,5 @@
+ssh YYYY@X.X.X.X  -D 1337
+ssh -R 1080:\[2001:470:b2b5:2023:a9be:8f28:886:2b77\]:1080 root@shell.ctf -> remote_sever : sshd_config GatewayPorts yes
+
+
+

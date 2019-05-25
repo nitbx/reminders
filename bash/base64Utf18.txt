@@ -1,0 +1,3 @@
+iconv -t utf16le -f utf8 < $1 | base64
+
+
